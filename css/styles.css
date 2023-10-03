@@ -7,18 +7,17 @@ body {
 }
 :root .web {
   color: var(--IRIS, #4d5ae5);
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   line-height: 1.17;
-  text-decoration: none;
 }
 .studio {
   color: var(--NAVY-BLUE, #2e2f42);
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -26,33 +25,36 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   line-height: 1.17;
+}
+
+.link {
   text-decoration: none;
 }
 
 .address {
   color: var(--SLATE, #434455);
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
-.h1 {
-  font-family: Roboto;
+.titleone {
+  font-family: "Roboto";
   font-size: 56px;
 }
-.h2 {
-  font-family: Roboto;
+.titletwo {
+  font-family: "Roboto";
   font-size: 36px;
 }
 
-.h3 {
-  font-family: Roboto;
+.titlethree {
+  font-family: "Roboto";
   font-size: 20px;
 }
-.h4 {
-  font-family: Roboto;
+.titlefour {
+  font-family: "Roboto";
   font-size: 16px;
   color: var(--NAVY-BLUE, #2e2f42);
   font-style: normal;
@@ -65,7 +67,7 @@ body {
 
   color: var(--WHITE, #fff);
   /* Button Text */
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -73,8 +75,18 @@ body {
   letter-spacing: 0.64px;
 }
 .fillter-list {
+  list-style: none;
 }
-.p {
+.text{
+  color: var(--SLATE, #434455);
+/* Body */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+}
 }
 .box1 {
   background: var(--NAVY-BLUE, #2e2f42);
