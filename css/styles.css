@@ -5,7 +5,11 @@ body {
   font-style: normal;
   background-color: #fff;
 }
-:root .web {
+:root{
+
+}
+
+.web {
   color: var(--IRIS, #4d5ae5);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -14,8 +18,9 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   line-height: 1.17;
+  text-decoration: none;
 }
-.studio {
+.link {
   color: var(--NAVY-BLUE, #2e2f42);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -25,9 +30,6 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   line-height: 1.17;
-}
-
-.link {
   text-decoration: none;
 }
 
@@ -43,15 +45,18 @@ body {
 .titleone {
   font-family: "Roboto";
   font-size: 56px;
+  text-decoration: none;
 }
 .titletwo {
   font-family: "Roboto";
   font-size: 36px;
+  text-decoration: none;
 }
 
 .titlethree {
   font-family: "Roboto";
   font-size: 20px;
+  text-decoration: none;
 }
 .titlefour {
   font-family: "Roboto";
@@ -59,8 +64,9 @@ body {
   color: var(--NAVY-BLUE, #2e2f42);
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02px;
+  text-decoration: none;
 }
 .button1 {
   background: var(--IRIS, #4d5ae5);
@@ -76,6 +82,17 @@ body {
 }
 .fillter-list {
   list-style: none;
+  border: 1px solid var(--CORNFLOWER, #E7E9FC);
+background: var(--CLOUD, #F4F4FD);
+color: var(--IRIS, #4D5AE5);
+text-align: center;
+/* Button Text */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.64px;
 }
 .text{
   color: var(--SLATE, #434455);
@@ -90,4 +107,11 @@ letter-spacing: 0.32px;
 }
 .box1 {
   background: var(--NAVY-BLUE, #2e2f42);
+}
+.list-class{
+  list-style: none;
+}
+
+.link{
+  text-decoration: none;
 }
