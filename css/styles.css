@@ -82,7 +82,7 @@ body {
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
 }
-.fillter-list {
+.button-list {
   list-style: none;
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--CLOUD, #f4f4fd);
@@ -96,7 +96,7 @@ body {
   line-height: 1.5px;
   letter-spacing: 0.04px;
 }
-.fillter-list:hover {
+.button-list:hover {
   background: var(--OCEAN, #404bbf);
 }
 .text-footer {
